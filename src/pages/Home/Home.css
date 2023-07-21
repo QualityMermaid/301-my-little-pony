@@ -1,4 +1,30 @@
 
+.pony-info h2{
+    font-size: 1.5rem;
+    padding: .2rem 1rem;
+}
+
+.pony-info h3{
+    font-size: 1.1rem;
+    padding: .2rem 1.5rem;
+}
+
+.pony-info ul{
+    padding: .5rem;
+}
+
+
+
+.pony-info ul li{
+    font-size: 1.1rem;
+    padding: 0 3rem;
+    color: purple;
+}
+
+.pony-info ol li{
+    font-size: .8rem;
+    color: black;
+}
 
 .img{
     display: flex;
@@ -7,26 +33,38 @@
     padding: 1rem;
 }
 
+.pony-info img{
+    width: 50vw;
+    position: absolute;
+    right: 0;
+    bottom: 6vw;
+}
+
 .mane6{
     display: grid;
     grid-template-columns: repeat(200px 3fr);
-    padding: 1rem;
-    margin: 1rem;
+    padding: 0 1rem;
+    margin: 0 1rem;
 }
 
-@media (min-width: 200px) {
+.pony-info p{
+    padding: 0 1rem;
+}
+
+
+@media (min-width: 400px) {
     .mane6{
         grid-template-columns: 1fr;
     }
 }
 
-@media (min-width: 400px) {
+@media (min-width: 700px) {
     .mane6{
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
     .mane6{
         grid-template-columns: 1fr 1fr 1fr;
     }

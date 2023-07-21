@@ -5,5 +5,6 @@
         {id:4, src:'../images/rarity.jpeg', name:"rarity"},
         {id:5, src:'../images/rainbowdash.jpeg', name:"rainbowdash"},
         {id:6, src:'../images/twilightsparkle.jpeg', name:"twilightsparkle"},
+        {id:7, src:'../images/twilightsparkle-alicorn.jpeg', name:"twilightsparkle-alicorn"},
     ]
     export default images;
