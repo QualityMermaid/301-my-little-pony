@@ -1,0 +1,34 @@
+
+
+.img{
+    display: flex;
+    margin: auto;
+    width: 300px;
+    padding: 1rem;
+}
+
+.mane6{
+    display: grid;
+    grid-template-columns: repeat(200px 3fr);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+@media (min-width: 200px) {
+    .mane6{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 400px) {
+    .mane6{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 900px) {
+    .mane6{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+

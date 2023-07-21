@@ -1,0 +1,18 @@
+
+.pony{
+    margin: .5rem;
+    padding: .5rem;
+    background-color: blue;
+}
+
+
+.pony h2{
+    text-align: center;
+}
+.pony img{
+    margin: auto;
+    padding: 1rem;
+}
+.pony p  {
+    padding: .2rem 0;    
+}

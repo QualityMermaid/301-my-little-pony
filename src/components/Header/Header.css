@@ -1,0 +1,25 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+header h1{
+    background-color: rgb(140, 255, 255);
+    font-family: 'Lumanosimo', cursive; 
+    padding: 1rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+header ul{
+    padding: .5rem 0;
+    background-color: rgba(238, 127, 255, 0.516);
+    display: flex;
+}
+
+header li{
+    font-family: 'Handlee', cursive;
+    padding: 0 1rem;
+    font-size: 1rem;
+}

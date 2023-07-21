@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+import './Reset.css'
 import './App.css';
+import Header from "./components/Header/Header"
+import Footer from "./components/Footer/Footer"
+import Home from './pages/Home/Home'
+import About from './pages/About/About'
+import Quiz from './pages/Quiz/Quiz'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Data from './data.json'
 
 function App() {
+  let ponyData = Data
   return (
+    <BrowserRouter>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Routes>
+        <Route path='/' element={<Home data={ponyData}/>}></Route>
+        <Route path='/about' element={<About/>}></Route>
+        <Route path='/quiz' element={<Quiz/>}></Route>
+      </Routes>
+      <Footer/>
     </div>
+    </BrowserRouter>
   );
 }
 

@@ -1,0 +1,58 @@
+[
+    {
+        "_id": 1,
+        "name": "Pinkie Pie",
+        "imgSrc": "pinkipie",
+        "description": "A Pony who loves to party!",
+        "type": "an earth",
+        "fav_things": ["party cannon", "new friends"],
+        "pet": "Gummy"
+    },
+    {
+        "_id": 2,
+        "name": "Applejack",
+        "imgSrc": "applejack",
+        "description": "A strong Pony who loves working on her family farm",
+        "type": "an earth",
+        "fav_things": ["apples"],
+        "pet": "Winona"
+    },
+    {
+        "_id": 3,
+        "name": "Fluttershy",
+        "ponyImg": "",
+        "description": "A quiet Pony who loves all animals. Just like her name she is very shy",
+        "type": "a pegasus",
+        "fav_things": ["animals", "tea parties"],
+        "pet": "Angel"
+    },
+    {
+        "_id": 4,
+        "name": "Rarity",
+        "ponyImg": "",
+        "description": "A Pony who loves fashion!",
+        "type": "a unicorn",
+        "fav_things": ["sewing", "gems", "fashion"],
+        "pet": "Opal"
+    },
+    {
+        "_id": 5,
+        "name": "Rainbow Dash",
+        "ponyImg": "",
+        "description": "A fast Pony who loves flying and pranks",
+        "type": "a pegasus",
+        "fav_things": ["flying","comic books","races"],
+        "pet": "Tank"
+    },
+    {
+        "_id": 6,
+        "name": "Twilight Sparkle",
+        "ponyImg": "",
+        "description": "A smart Pony who loves reading and her friends.",
+        "type": "a unicorn",
+        "newType": "an alicorn",
+        "fav_things": ["animals", "tea parties"],
+        "pet": "Angel"
+    }
+    
+]
