@@ -16,7 +16,7 @@ import ponyImages from "../../PonyImages/PonyImages"
     return (
         <div className='pony'>
             <h2>{name}</h2>
-            <img className='img' src={`../../images/${ponyImgSrc}.jpeg`} alt={name}></img>
+            <img className='img' src={require(`../../images/${ponyImgSrc}.jpeg`)} alt={name}></img>
             <p>Who is she? {description}</p> 
             <p>Her pet is called {pet}</p>           
             <p>She is {type} pony.</p>

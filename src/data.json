@@ -2,7 +2,7 @@
     {
         "_id": 1,
         "name": "Pinkie Pie",
-        "imgSrc": "pinkipie",
+        "imgSrc": "pinkiepie",
         "description": "A Pony who loves to party!",
         "type": "an earth",
         "fav_things": ["party cannon", "new friends"],
