@@ -3,20 +3,20 @@ import Logo from '../../images/mylittleponylogo.png'
 import './Home.css'
 import Mlp from '../../components/Mlp/Mlp'
 import { Helmet } from 'react-helmet-async'
-import pinkipie from "../../images/pinkiepie.png"
+import pinkipie from "../../images/pinkiepie.jpeg"
 
 
 export default function Home({data}) {
     
     function playMusic(){
-        console.log("music")
+        // console.log("music")
     }
 
     const ponyImages = [
         pinkipie,
     ]
     
-    let ponyImg = pinkipie
+    // let ponyImg = pinkipie
 
     return (
         <>
@@ -44,9 +44,10 @@ export default function Home({data}) {
                         key={pony._id}
                         type={pony.type}
                         ponyImgSrc = {pony.imgSrc}
-                        ponyImg={ponyImg}
+                        // ponyImg={ponyImg}
                         pet={pony.pet}
-                        description={pony.description}/>
+                        description={pony.description}
+                        ponyImages={ponyImages}/>
                         )}
                     )}
                 </div>

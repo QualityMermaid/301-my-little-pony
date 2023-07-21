@@ -20,7 +20,7 @@
     {
         "_id": 3,
         "name": "Fluttershy",
-        "ponyImg": "",
+        "imgSrc": "fluttershy",
         "description": "A quiet Pony who loves all animals. Just like her name she is very shy",
         "type": "a pegasus",
         "fav_things": ["animals", "tea parties"],
@@ -29,7 +29,7 @@
     {
         "_id": 4,
         "name": "Rarity",
-        "ponyImg": "",
+        "imgSrc": "rarity",
         "description": "A Pony who loves fashion!",
         "type": "a unicorn",
         "fav_things": ["sewing", "gems", "fashion"],
@@ -38,7 +38,7 @@
     {
         "_id": 5,
         "name": "Rainbow Dash",
-        "ponyImg": "",
+        "imgSrc": "rainbowdash",
         "description": "A fast Pony who loves flying and pranks",
         "type": "a pegasus",
         "fav_things": ["flying","comic books","races"],
@@ -47,7 +47,7 @@
     {
         "_id": 6,
         "name": "Twilight Sparkle",
-        "ponyImg": "",
+        "imgSrc": "twilightsparkle",
         "description": "A smart Pony who loves reading and her friends.",
         "type": "a unicorn",
         "newType": "an alicorn",
