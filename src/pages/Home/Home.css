@@ -9,8 +9,10 @@
     padding: .2rem 1.5rem;
 }
 
-.pony-info ul{
+
+.threeTypes{
     padding: .5rem;
+    width: 50%;
 }
 
 
@@ -34,10 +36,11 @@
 }
 
 .pony-info img{
-    width: 50vw;
+    width: 50%;
     position: absolute;
-    right: 0;
-    bottom: 6vw;
+    max-height: 320px;
+    padding-right: 1.5rem;
+    transform: translate(0rem, 4rem) ;
 }
 
 .mane6{
@@ -51,10 +54,37 @@
     padding: 0 1rem;
 }
 
+@media (min-width: 100px) {
+    .mane6{
+        grid-template-columns: 1fr;
+    }
+    .threeTypes{
+        padding: .5rem;
+        width: 100%;
+    }
+
+    .pony-info img{
+        width: 0%;
+    
+    }
+}
+
 
 @media (min-width: 400px) {
     .mane6{
         grid-template-columns: 1fr;
+    }
+    .threeTypes{
+        padding: .5rem;
+        width: 50%;
+    }
+
+    .pony-info img{
+        position: absolute;
+
+        width: 50%;
+
+    
     }
 }
 
@@ -62,11 +92,48 @@
     .mane6{
         grid-template-columns: 1fr 1fr;
     }
+    .pony-info img{
+        position: absolute;
+
+        width: 50%;
+
+    
+    }
+}
+
+@media (min-width: 800px) {
+    .pony-info img{
+        width: 50%;
+        position: absolute;
+        right: 0;
+        bottom: 3vw;
+        max-height: 170px;
+    
+    }
 }
 
 @media (min-width: 1000px) {
     .mane6{
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    .pony-info img{
+        width: 50%;
+        position: absolute;
+        right: 0;
+        bottom: 3vw;
+        max-height: 220px;
+    
+    }
+}
+
+@media (min-width: 1200px){
+    .pony-info img{
+        width: 50%;
+        position: absolute;
+        right: 0;
+        bottom: 3vw;
+        max-height: 320px;
+    
     }
 }
 
