@@ -9,7 +9,7 @@ export default function Quiz() {
                 <title>My Little Website Quiz Page</title>
                 <meta name='description' content='This is the quiz page for my little website'></meta>
             </Helmet>
-            <main>
+            <main className='quiz'>
                 <h2>Quiz</h2>
                 <p>This will be a quiz page</p>
                 </main>

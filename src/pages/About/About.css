@@ -1,3 +1,16 @@
-main{
-    font-family: 'Handlee', cursive;
+.about{
+    padding: 1rem;
+}
+
+.about h2{
+    padding: 1rem 0;
+}
+
+.about h3{
+    padding-bottom: 1rem;
+    padding-left: .5rem;
+}
+
+.about p{
+    padding: .1rem 0;
 }

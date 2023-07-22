@@ -30,10 +30,24 @@
 .pony-modal h2{
     font-size: 3rem;
     padding: 1rem;
+    color: black;
+}
+.pony-modal ul li{
+    padding: .2rem;
 }
 
 .alicorn{
     width: 400px;
     height: 400px;
     position: fixed;
+}
+
+.close-button{
+    background-color: rgb(206, 12, 255);
+    color: black;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.25rem;
+    padding: 0.5rem;
 }

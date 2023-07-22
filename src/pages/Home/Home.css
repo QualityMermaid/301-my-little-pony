@@ -1,11 +1,23 @@
+main{
+    font-family: 'Handlee', cursive;
 
-.pony-info h2{
+}
+h2{
+    font-family: 'Lumanosimo', cursive; 
     font-size: 1.5rem;
-    padding: .2rem 1rem;
+    padding: 1rem 0;
+    color: rgb(210, 38, 172);
+
+}
+h3{
+    font-size: 1.1rem;
+
+}
+.pony-info h2{
+    padding: 1rem 1rem;
 }
 
 .pony-info h3{
-    font-size: 1.1rem;
     padding: .2rem 1.5rem;
 }
 
