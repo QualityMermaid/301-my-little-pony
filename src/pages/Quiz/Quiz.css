@@ -33,6 +33,16 @@
 
 }
 
+.quiz button{
+    font-size: 1.1rem;
+    background-color: blueviolet;
+    color: white;
+    font-family: 'Lumanosimo', cursive;
+    display: flex;
+    margin-left: 10rem;
+    margin-top: 1rem;
+}
+
 .quizImg{
     width: auto;
     max-height: 400px;
