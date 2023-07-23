@@ -34,7 +34,7 @@ function App() {
         <Route path='/' element={<Home openModal={handleModal} modalContent={modalContent} data={Data}/>}></Route>
         {/* <Route path='/' element={<Home openModal={handleModal} modalContent={modalContent} data={Data}/>}></Route> */}
         <Route path='/about' element={<About/>}></Route>
-        <Route path='/quiz' element={<Quiz/>}></Route>
+        <Route path='/quiz' element={<Quiz data={Data}/>}></Route>
       </Routes>
       <Footer/>
       {showModal && <SelectedPony modalContent={modalContent} closeModal={closeModal} />}

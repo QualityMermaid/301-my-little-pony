@@ -6,7 +6,8 @@
         "description": "A Pony who loves to party!",
         "type": "an earth",
         "fav_things": ["party cannon", "new friends"],
-        "pet": "Gummy"
+        "pet": "Gummy",
+        "petSrc": "gummy"
     },
     {
         "_id": 2,
@@ -15,7 +16,9 @@
         "description": "A strong Pony who loves working on her family farm",
         "type": "an earth",
         "fav_things": ["apples"],
-        "pet": "Winona"
+        "pet": "Winona",
+        "petSrc": "winona"
+
     },
     {
         "_id": 3,
@@ -24,7 +27,8 @@
         "description": "A quiet Pony who loves all animals. Just like her name she is very shy",
         "type": "a pegasus",
         "fav_things": ["animals", "tea parties"],
-        "pet": "Angel"
+        "pet": "Angel",
+        "petSrc": "angel"
     },
     {
         "_id": 4,
@@ -33,7 +37,9 @@
         "description": "A Pony who loves fashion!",
         "type": "a unicorn",
         "fav_things": ["sewing", "gems", "fashion"],
-        "pet": "Opal"
+        "pet": "Opal",
+        "petSrc": "opal"
+
     },
     {
         "_id": 5,
@@ -42,7 +48,9 @@
         "description": "A fast Pony who loves flying and pranks",
         "type": "a pegasus",
         "fav_things": ["flying","comic books","races"],
-        "pet": "Tank"
+        "pet": "Tank",
+        "petSrc": "tank"
+
     },
     {
         "_id": 6,
@@ -52,7 +60,8 @@
         "type": "a unicorn",
         "newType": "an alicorn",
         "fav_things": ["animals", "tea parties"],
-        "pet": "Owlowiscious"
+        "pet": "Owlowiscious",
+        "petSrc": "owlowiscious"
     }
     
 ]

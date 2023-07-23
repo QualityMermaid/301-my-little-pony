@@ -14,7 +14,7 @@ header h1{
 
 header ul{
     padding: .5rem 0;
-    background-color: rgba(238, 127, 255, 0.516);
+    background-color: rgb(238, 127, 255);
     display: flex;
 }
 

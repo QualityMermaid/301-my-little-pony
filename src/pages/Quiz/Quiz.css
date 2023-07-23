@@ -10,3 +10,33 @@
     padding-bottom: 1rem;
     padding-left: .5rem;
 }
+
+.quiz legend{
+    font-size: 2rem;
+    padding: 1rem;
+    color: rgb(2, 155, 155);
+}
+
+.quiz label{
+    font-family: 'Handlee', cursive;
+
+    font-size: 1.5rem;
+    padding: .3rem;
+}
+
+.quiz select{
+    font-family: 'Handlee', cursive;
+    font-size: 1.3rem;
+    padding: .3rem 0;
+    text-align: center;
+    background-color: rgb(220, 240, 247);
+
+}
+
+.quizImg{
+    width: auto;
+    max-height: 400px;
+    display: flex;
+    margin: auto;
+    padding: 1rem;
+}
